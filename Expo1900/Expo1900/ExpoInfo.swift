@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct ExpoInfo: Decodable {
+struct ExpoInfo: codable {
     let title: String
     let visitors: Int
     let location: String
     let duration: String
-    let description: String
-}
+    let description: Stringdd
+}dd
