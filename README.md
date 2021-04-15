@@ -7,7 +7,12 @@
 - 04/06(화): Table View, TableView Cell 개념 공부, 개발자 면접 노하우 특강
 - 04/07(수): Codable, CodingKey의 protocol 활용법 공부, JSON 다루기 boostcourse 영상 시청
 - 04/08(목): Dynamic View 강의, Codable(Encoding, Decoding), [JSON 인코딩-디코딩 하는 방법](https://github.com/Kioding/ios-exposition-universelle/blob/main/Docs/json.md)
-- 04/09(금):
+- 04/09(금): 
+- 04/12(월): 고차함수 강의 (map, fileter, reduce)
+- 04/13(화): '6개월 전의 나에게' Olaf 특강
+- 04/14(수): step2 어플구조 그리기
+### 설계
+![스크린샷 2021-04-14 오후 2 23 51](https://user-images.githubusercontent.com/65153742/114658592-0a7d3900-9d2d-11eb-9a78-ae18734e5394.png)
 
 ### 참고 링크
 동영상
