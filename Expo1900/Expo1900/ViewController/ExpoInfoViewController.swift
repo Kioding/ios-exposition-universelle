@@ -1,8 +1,8 @@
 //
 //  Expo1900 - ViewController.swift
-//  Created by yagom. 
+//  Created by yagom.
 //  Copyright © yagom academy. All rights reserved.
-// 
+//
 
 import UIKit
 
@@ -20,20 +20,14 @@ class ExpoInfoViewController: UIViewController {
         var expo: ExpoInfo
 
         let jsonDecoder: JSONDecoder = JSONDecoder()
-        guard let dataAsset: NSDataAsset = NSDataAsset(name: "exposition_universelle_1900") else {
+        guard let dataAsset: NSDataAsset = NSDataAsset(name: "text") else {
             return
         }
-        
+
         do {
-            expo = try jsonDecoder.decode(ExpoInfo.self, from: dataAsset.data)
-            titleLabel.text = expo.title
-            visitorsLabel.text = "방문자: " + String(expo.visitors)
-            locationLabel.text = "개최지: " + expo.location
-            durationLabel.text = "기간:" + expo.duration
-            descrtionLabel.text = expo.description
+            expo = try jsonDecoder.decode(text.self, from: dataAsset.data)
         } catch {
             print(error.localizedDescription)
         }
     }
 }
-
