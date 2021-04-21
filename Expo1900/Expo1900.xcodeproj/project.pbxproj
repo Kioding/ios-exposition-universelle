@@ -10,8 +10,9 @@
 		3363564226292C2600B77691 /* koreanItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363564126292C2600B77691 /* koreanItemInfo.swift */; };
 		3363564626292C3B00B77691 /* ExpoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363564526292C3B00B77691 /* ExpoInfo.swift */; };
 		3363564B26292C7C00B77691 /* ExpoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363564A26292C7C00B77691 /* ExpoInfoViewController.swift */; };
-		339933B5261F58DA0014C5FA /* KoreanItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339933B4261F58DA0014C5FA /* KoreanItemInfo.swift */; };
-		339933B8261F58EE0014C5FA /* ExpoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339933B7261F58EE0014C5FA /* ExpoInfo.swift */; };
+		33A05BAE262935F900A8949B /* KoreanItemInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A05BAD262935F900A8949B /* KoreanItemInfoController.swift */; };
+		33A05BB126296F4F00A8949B /* CustomCellForKoreanitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A05BB026296F4F00A8949B /* CustomCellForKoreanitem.swift */; };
+		33A05BB4262970F800A8949B /* koreanItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A05BB3262970F800A8949B /* koreanItemDetailViewController.swift */; };
 		C79FF4B52589F401005FB0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79FF4B42589F401005FB0FD /* AppDelegate.swift */; };
 		C79FF4B72589F401005FB0FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79FF4B62589F401005FB0FD /* SceneDelegate.swift */; };
 		C79FF4BC2589F401005FB0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79FF4BA2589F401005FB0FD /* Main.storyboard */; };
@@ -23,8 +24,9 @@
 		3363564126292C2600B77691 /* koreanItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koreanItemInfo.swift; sourceTree = "<group>"; };
 		3363564526292C3B00B77691 /* ExpoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoInfo.swift; sourceTree = "<group>"; };
 		3363564A26292C7C00B77691 /* ExpoInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoInfoViewController.swift; sourceTree = "<group>"; };
-		339933B4261F58DA0014C5FA /* KoreanItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanItemInfo.swift; sourceTree = "<group>"; };
-		339933B7261F58EE0014C5FA /* ExpoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoInfo.swift; sourceTree = "<group>"; };
+		33A05BAD262935F900A8949B /* KoreanItemInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanItemInfoController.swift; sourceTree = "<group>"; };
+		33A05BB026296F4F00A8949B /* CustomCellForKoreanitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellForKoreanitem.swift; sourceTree = "<group>"; };
+		33A05BB3262970F800A8949B /* koreanItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koreanItemDetailViewController.swift; sourceTree = "<group>"; };
 		C79FF4B12589F401005FB0FD /* Expo1900.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expo1900.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79FF4B42589F401005FB0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79FF4B62589F401005FB0FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,36 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				3363564A26292C7C00B77691 /* ExpoInfoViewController.swift */,
+				33A05BAD262935F900A8949B /* KoreanItemInfoController.swift */,
+				33A05BB026296F4F00A8949B /* CustomCellForKoreanitem.swift */,
+				33A05BB3262970F800A8949B /* koreanItemDetailViewController.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		3382FCE626284A0600EE6556 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		33A08ABF2628843B00B64726 /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group1";
-			sourceTree = "<group>";
-		};
-		33A08AC0262884DB00B64726 /* Model2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model2;
-			sourceTree = "<group>";
-		};
-		33A08AC1262884FB00B64726 /* New Group2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group2";
 			sourceTree = "<group>";
 		};
 		C79FF4A82589F401005FB0FD = {
@@ -111,18 +88,12 @@
 			children = (
 				3363564926292C6400B77691 /* ViewController */,
 				3363564026292C1200B77691 /* Model */,
-				33A08AC1262884FB00B64726 /* New Group2 */,
-				33A08AC0262884DB00B64726 /* Model2 */,
-				33A08ABF2628843B00B64726 /* New Group1 */,
-				3382FCE626284A0600EE6556 /* New Group */,
 				C79FF4B42589F401005FB0FD /* AppDelegate.swift */,
 				C79FF4B62589F401005FB0FD /* SceneDelegate.swift */,
 				C79FF4BA2589F401005FB0FD /* Main.storyboard */,
 				C79FF4BD2589F404005FB0FD /* Assets.xcassets */,
 				C79FF4BF2589F404005FB0FD /* LaunchScreen.storyboard */,
 				C79FF4C22589F404005FB0FD /* Info.plist */,
-				339933B4261F58DA0014C5FA /* KoreanItemInfo.swift */,
-				339933B7261F58EE0014C5FA /* ExpoInfo.swift */,
 			);
 			path = Expo1900;
 			sourceTree = "<group>";
@@ -197,11 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A05BB4262970F800A8949B /* koreanItemDetailViewController.swift in Sources */,
+				33A05BAE262935F900A8949B /* KoreanItemInfoController.swift in Sources */,
 				3363564226292C2600B77691 /* koreanItemInfo.swift in Sources */,
 				C79FF4B52589F401005FB0FD /* AppDelegate.swift in Sources */,
-				339933B8261F58EE0014C5FA /* ExpoInfo.swift in Sources */,
 				3363564626292C3B00B77691 /* ExpoInfo.swift in Sources */,
-				339933B5261F58DA0014C5FA /* KoreanItemInfo.swift in Sources */,
+				33A05BB126296F4F00A8949B /* CustomCellForKoreanitem.swift in Sources */,
 				3363564B26292C7C00B77691 /* ExpoInfoViewController.swift in Sources */,
 				C79FF4B72589F401005FB0FD /* SceneDelegate.swift in Sources */,
 			);
